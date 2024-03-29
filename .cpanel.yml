@@ -8,9 +8,9 @@ deployment:
         - /bin/cp projects.html $DEPLOYPATH
         - /bin/cp samples.html $DEPLOYPATH
         - /bin/cp test.html $DEPLOYPATH
-        - /bin cp -r /blog $DEPLOYPATH
-        - /bin cp -r /css $DEPLOYPATH
-        - /bin cp -r /blog $DEPLOYPATH
-        - /bin cp -r /favicon_io $DEPLOYPATH
-        - /bin cp -r /images $DEPLOYPATH
-        - /bin cp -r /js $DEPLOYPATH
+        - /bin cp -r /blog/* $DEPLOYPATH
+        - /bin cp -r /css/* $DEPLOYPATH
+        - /bin cp -r /blog/* $DEPLOYPATH
+        - /bin cp -r /favicon_io/* $DEPLOYPATH
+        - /bin cp -r /images/* $DEPLOYPATH
+        - /bin cp -r /js/* $DEPLOYPATH
