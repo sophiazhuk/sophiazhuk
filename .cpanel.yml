@@ -1,0 +1,16 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/sophdmks/public_html
+        - /bin/cp about.html $DEPLOYPATH
+        - /bin/cp contact.html $DEPLOYPATH
+        - /bin/cp index.html $DEPLOYPATH
+        - /bin/cp projects.html $DEPLOYPATH
+        - /bin/cp samples.html $DEPLOYPATH
+        - /bin/cp test.html $DEPLOYPATH
+        - /bin cp -r /blog $DEPLOYPATH
+        - /bin cp -r /css/* $DEPLOYPATH
+        - /bin cp -r /blog/* $DEPLOYPATH
+        - /bin cp -r /favicon_io/* $DEPLOYPATH
+        - /bin cp -r /images/* $DEPLOYPATH
+        - /bin cp -r /js/* $DEPLOYPATH
