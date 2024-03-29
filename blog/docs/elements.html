@@ -1,0 +1,189 @@
+<!DOCTYPE html">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="style2.css" type="text/css" />
+    <script src="code.js"></script>
+    <title>Elements</title>
+</head>
+
+<body>
+    <!-- BANNER START -->
+    <div id="header-wrap">
+        <div>
+            <img id="banner" src="../images/titlebanner.png">
+        </div>
+    </div>
+    <!-- BANNER END -->
+
+    <div id="wrap"> <!-- MAIN WRAP -->
+
+        <!-- SIDE BAR START -->
+        <div id="sidebar">
+            <p class="squiggle">
+                "`-._,-'"`-._,-'"
+            </p>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="review.html">Reviews</a></li>
+                <li><a href="music.html">Playlists</a></li>
+                <!-- <li><a href="#">Favorites</a></li> -->
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+            </br>
+            <p class="squiggle">
+                "`-._,-'"`-._,-'"
+            </p>
+            </br>
+            <div id="profile">
+                <img src="/images/bwsnow.png"> <br>
+
+                <strong style="font-size: 14px;">Sophia Zhuk</strong><br>
+                Bellingham, WA</br> </br>
+
+                <p>
+                    <strong style="font-size: 14px;">LINKS:</strong></br>
+                    <a href="https://www.instagram.com/sophiazhuk/" target="_blank"
+                        rel="noopener noreferrer">Instagram</a> </br>
+                    <a href="https://www.sophiazhuk.com" target="_blank"
+                        rel="noopener noreferrer">Portfolio</a></br>
+                    <a href="https://github.com/sophiazhuk" target="_blank" rel="noopener noreferrer">github</a></br>
+                </p>
+            </div>
+        </div>
+        <!-- SIDE BAR END -->
+
+
+        <div class="main">
+
+
+            <section class="box">
+                <h2>Boxes</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, culpa!</p>
+
+            </section>
+
+            <div class="header">
+                <h1>Title of page</h1>
+            </div>
+
+            <!-- Tabbed Sorted Content -->
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'One')">One</button>
+                <button class="tablinks" onclick="openCity(event, 'Two')">Two</button>
+                <button class="tablinks" onclick="openCity(event, 'Three')">Three</button>
+                <button class="tablinks" onclick="openCity(event, 'Four')">Four</button>
+            </div>
+            <section class="box" style="margin-top: 0px;">
+                <h2>Sorted boxes</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, culpa!</p>
+
+            </section>
+
+            <section class="accordion tabcontent" id="One">
+                <input type="checkbox" name="collapse" id="handle4">
+                <h2 class="handle">
+                    <label for="handle4">Drink</label>
+                </h2>
+                <div class="content">
+                    <img class="gif" src="/images/gfuel-1.gif">
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum.
+                        Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere
+                        nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac
+                        blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum,
+                        lorem tellus eleifend magna, eget fringilla velit magna id neque. </p>
+                </div>
+            </section>
+            <section class="accordion tabcontent" id="Two">
+                <input type="checkbox" name="collapse" id="handle5">
+                <h2 class="handle">
+                    <label for="handle5">
+                        <img src="../images/food.jpg">
+                        <div class="review-bio">
+                            <h3>The Restaurant of Food</h3>
+                            <p>Seattle, WA
+                                <span style="color: rgb(159, 159, 159);"> &bull; 4/23/2023</span>
+                            </p>
+                            <span class="yellow">&starf;&starf;&starf;&starf;</span>&star;
+                        </div>
+                    </label>
+                </h2>
+                <div class="content">
+                    <hr>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex possimus alias qui aliquam, atque deserunt cupiditate repellat modi recusandae quas!.</p>
+                </div>
+            </section>
+
+            <section class="accordion book tabcontent" id="Three">
+                <input type="checkbox" name="collapse" id="handle6">
+                <h2 class="handle">
+                    <label for="handle6">
+                        <img src="../images/review/dune.jpg" alt="Dune by Frank Herbert">
+                        <div class="review-bio">
+                            <h3>Dune</h3>
+                            <p>Book Author</p>
+                            <span class="yellow">&starf;&starf;&starf;&starf;&starf;</span>
+                            <p><span class="date">Read 12/23/2022</span></p>
+                        </div>
+                    </label>
+                </h2>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi quasi suscipit libero repudiandae aliquid, perferendis, in saepe porro architecto adipisci debitis. Iusto consequuntur nihil labore?</p>
+                </div>
+            </section>
+            <section class="accordion book tabcontent" id="Four">
+                <input type="checkbox" name="collapse" id="handle7">
+                <h2 class="handle">
+                    <label for="handle7">
+                        <img src="../images/review/dunemovie.jpg" alt="Dune: Part 2 (2024) by Denis Villeneuve">
+                        <div class="review-bio">
+                            <h3>Movie</h3>
+                            <p>Director Name</p>
+                            <span class="yellow">&starf;&starf;&starf;&starf;&starf;</span>
+                            <p><span class="date">Watched 12/23/2022</span></p>
+                        </div>
+                    </label>
+                </h2>
+                <div class="content">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem consequatur qui tenetur eligendi porro velit quas excepturi omnis earum hic.</p>
+                </div>
+            </section>
+
+            <!-- gallery -->
+            <section class="gallery-box">
+            <div class="gallery">
+                <script src="code.js"></script>
+
+                <div class="gallery-menu">
+                    <a href="#" onclick="showImage(1)" class="active">PHOTO 01</a>
+                    <a href="#" onclick="showImage(2)">PHOTO 02</a>
+                    <a href="#" onclick="showImage(3)">PHOTO 03</a>
+                    <a href="#" onclick="showImage(4)">PHOTO 04</a>
+                    <a href="#" onclick="showImage(5)">PHOTO 05</a>
+                    <a href="#" onclick="showImage(6)">PHOTO 06</a>
+                </div>
+                <div class="img-wrapper">
+                    <img class="gallery-img" src="/images/gallery01/1.jpg" alt="Image 1">
+                    <img class="gallery-img" src="/images/gallery01/2.jpg" alt="Image 2">
+                    <img class="gallery-img" src="/images/gallery01/3.jpg" alt="Image 3">
+                    <img class="gallery-img" src="/images/gallery01/4.jpg" alt="Image 4">
+                    <img class="gallery-img" src="/images/gallery01/5.jpg" alt="Image 5">
+                    <img class="gallery-img" src="/images/gallery01/6.jpg" alt="Image 6">
+                </div>
+
+
+            </div>
+        </section>
+
+
+        </div>
+
+    </div>
+    <div id="footer-wrap">
+        <p id="footer-text">the official digital archive of Sophia</p>
+    </div>
+</body>

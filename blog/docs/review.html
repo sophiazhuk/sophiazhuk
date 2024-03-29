@@ -1,0 +1,244 @@
+<!DOCTYPE html">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="style2.css" type="text/css" />
+    <script src="code.js"></script>
+    <title>Review</title>
+</head>
+
+<body>
+    <!-- BANNER START -->
+    <div id="header-wrap">
+        <div>
+            <img id="banner" src="../images/titlebanner.png">
+        </div>
+    </div>
+    <!-- BANNER END -->
+
+    <div id="wrap"> <!-- MAIN WRAP -->
+
+        <!-- SIDE BAR START -->
+        <div id="sidebar">
+            <p class="squiggle">
+                "`-._,-'"`-._,-'"
+            </p>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="review.html">Reviews</a></li>
+                <li><a href="music.html">Playlists</a></li>
+                <!-- <li><a href="#">Favorites</a></li> -->
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+            </br>
+            <p class="squiggle">
+                "`-._,-'"`-._,-'"
+            </p>
+            </br>
+            <div id="profile">
+                <img src="/images/bwsnow.png"> <br>
+
+                <strong style="font-size: 14px;">Sophia Zhuk</strong><br>
+                Bellingham, WA</br> </br>
+
+                <p>
+                    <strong style="font-size: 14px;">LINKS:</strong></br>
+                    <a href="https://www.instagram.com/sophiazhuk/" target="_blank"
+                        rel="noopener noreferrer">Instagram</a> </br>
+                    <a href="https://www.sophiazhuk.com" target="_blank" rel="noopener noreferrer">Portfolio</a></br>
+                    <a href="https://github.com/sophiazhuk" target="_blank" rel="noopener noreferrer">github</a></br>
+                </p>
+            </div>
+        </div>
+        <!-- SIDE BAR END -->
+
+
+        <div class="main">
+
+            <div class="header">
+                <h1>Reviews</h1>
+            </div>
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'Food')">Food</button>
+                <button class="tablinks" onclick="openCity(event, 'Books')">Books</button>
+                <button class="tablinks" onclick="openCity(event, 'Movies')">Movies</button>
+                <button class="tablinks" onclick="openCity(event, 'Drinks')">Drinks</button>
+
+            </div>
+            <section class="box" style="margin-top: 0px;">
+
+                <p>A page where I write reviews about whatever. We got drinks, movies,
+                    restaurants, music, etc. Click the tabs to sort through the types of reviews.</p>
+
+            </section>
+            <!-- drinks -->
+            <section class="accordion tabcontent" id="Drinks">
+                <input type="checkbox" name="collapse" id="handle4">
+                <h2 class="handle">
+                    <label for="handle4">Drink test test testing</label>
+                </h2>
+                <div class="content">
+                    <img class="gif" src="/images/gfuel-1.gif">
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum.
+                        Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere
+                        nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac
+                        blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum,
+                        lorem tellus eleifend magna, eget fringilla velit magna id neque. Curabitur vel urna. In
+                        tristique orci porttitor ipsum. Aliquam ornare diam iaculis nibh. Proin luctus, velit pulvinar
+                        ullamcorper nonummy, mauris enim eleifend urna, congue egestas elit lectus eu est.</p>
+
+                </div>
+            </section>
+
+            <!-- food -->
+            <div class="box tabcontent" id="Food">
+                <section class="accordion">
+                    <input type="checkbox" name="collapse" id="handle-hdc">
+                    <h2 class="handle">
+                        <label for="handle-hdc">
+                            <img src="../images/review/tj-banana.png">
+                            <div class="review-bio">
+                                <h3>Trader Joe's: Banana & Cream Yogurt</h3>
+                                   
+                                <span class="yellow">&starf;&starf;&starf;&starf;&starf;</span>
+                            </div>
+                        </label>
+                    </h2>
+                    <div class="content">
+                        <hr>
+                        <p>My favorite yogurt. Not sour, mellow taste, creamy, thick, banana, yum. My only complaint is that I only find it in stock 10% of the time at my local Trader Joe's.</p>
+                    </div>
+                </section>                
+                <section class="accordion">
+                    <input type="checkbox" name="collapse" id="handle5">
+                    <h2 class="handle">
+                        <label for="handle5">
+                            <img src="../images/review/haagendasz-coffe.png">
+                            <div class="review-bio">
+                                <h3>Haagen-Dazs: Coffee Yogurt</h3>
+                                <p>
+                                    <span class="date">3/03/2024</span>
+                                    <span class="yellow">&starf;&starf;&starf;</span>&star;&star;
+                                </p>
+                                
+                            </div>
+                        </label>
+                    </h2>
+                    <div class="content">
+                        <hr>
+                        <p>Not bad. I like that it's not super sour. The flavor is very reminiscent of ice cream. I think the coffee counters the sourness. The texture is a little too loose for my liking but I got over it. Oui's
+                            mocha yogurt is still better.</p>
+                    </div>
+                </section>
+            </div>
+
+            <!-- books -->
+            <div class="box tabcontent" id="Books">
+                <section class="accordion book ">
+                    <input type="checkbox" name="collapse" id="handle6">
+                    <h2 class="handle">
+                        <label for="handle6">
+                            <img src="../images/review/dune.jpg" alt="Dune by Frank Herbert">
+                            <div class="review-bio">
+                                <h3>Dune</h3>
+                                <p>Frank Herbert</p>
+                                <span class="yellow">&starf;&starf;&starf;&starf;&starf;</span>
+                                <p><span class="date">Read 12/23/2022</span></p>
+                            </div>
+                        </label>
+                    </h2>
+                    <div class="content">
+                        <p>Favorite book. A story of war, religion, psychology, and politics. Everything you need in one
+                            story.
+                            I don't read books too often, but this one got me reading everyday. Also got me into a kick
+                            of
+                            reading and decided to read The Alchemist and Siddhartha, haha.</p>
+                    </div>
+                </section>
+                <section class="accordion book ">
+                    <input type="checkbox" name="collapse" id="handletapc">
+                    <h2 class="handle">
+                        <label for="handletapc">
+                            <img src="../images/review/alchemist.png" alt="Dune by Frank Herbert">
+                            <div class="review-bio">
+                                <h3>The Alchemist</h3>
+                                <p>Paulo Coelho</p>
+                                <span class="yellow">&starf;&starf;&starf;&starf;</span>&star;
+                                <p><span class="date">Read 8/30/2021</span></p>
+                            </div>
+                        </label>
+                    </h2>
+                    <div class="content">
+                        <p>I read this right before moving two hours away to college. I think it meant a lot to me at the time and inspired me to follow through. Now, I'm glad I read the book because I am happy at where I am at. It's definitely not the only factor, but it's one big enough for me to shout out.</p>
+                    </div>
+                </section>
+                <section class="accordion book ">
+                    <input type="checkbox" name="collapse" id="handletues">
+                    <h2 class="handle">
+                        <label for="handletues">
+                            <img src="../images/review/tuesdays.png" alt="Dune by Frank Herbert">
+                            <div class="review-bio">
+                                <h3>Tuesdays with Morrie</h3>
+                                <p>Mitch Albom</p>
+                                <span class="yellow">&starf;&starf;&starf;&starf;</span>&star;
+                                <p><span class="date">Read 7/07/2023</span></p>
+                            </div>
+                        </label>
+                    </h2>
+                    <div class="content">
+                        <p>Sweet, sweet book. I hope to find a wise old mentor one day.</p>
+                    </div>
+                </section>
+                <section class="accordion book ">
+                    <input type="checkbox" name="collapse" id="handlephm">
+                    <h2 class="handle">
+                        <label for="handlephm">
+                            <img src="../images/review/phm.png" alt="Project Hail Mary">
+                            <div class="review-bio">
+                                <h3>Project Hail Mary</h3>
+                                <p>Andy Weir</p>
+                                <span class="yellow">&starf;&starf;&starf;&starf;</span>&star;
+                                <p><span class="date">Read 6/30/2021</span></p>
+                            </div>
+                        </label>
+                    </h2>
+                    <div class="content">
+                        <p>Super fun story. Can't wait to see it in theaters. I will be reading everything by Weir.</p>
+                    </div>
+                </section>
+            </div>
+
+            <!-- movies -->
+
+
+            <div class="box tabcontent" id="Movies">
+                <section class="accordion book">
+                    <input type="checkbox" name="collapse" id="handle7">
+                    <h2 class="handle">
+                        <label for="handle7">
+                            <img src="../images/review/dunemovie.jpg" alt="Dune: Part 2 (2024) by Denis Villeneuve">
+                            <div class="review-bio">
+                                <h3>Dune: Part 2 (2024)</h3>
+                                <p>Denis Villeneuve</p>
+                                <span class="yellow">&starf;&starf;&starf;&starf;&starf;</span>
+                                <p><span class="date">Watched 3/03/2024</span></p>
+                            </div>
+                        </label>
+                    </h2>
+                    <div class="content">
+                        <p>Loved the book, loved the movie. Some big parts were missing or changed from the book, but I think it was for the better. I think Villeneuve made Dune more digestible this way. Best sci-fi movie.</p>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="footer-wrap">
+        <p id="footer-text">the official digital archive of Sophia</p>
+    </div>
+</body>
