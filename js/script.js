@@ -50,6 +50,18 @@ $('tr#p5').mouseenter(function() {
     $('#typed5').hide();
 })
 //
+//
+$('tr#p7').mouseenter(function() {
+    var typed5 = new Typed('#typed7', {
+        strings: ["Designed and developed a web application designed to help students organize their academic schedule efficiently."],
+        typeSpeed: 10,
+        showCursor: false,
+      });
+}).mouseleave(function() {
+    $('#typed5').typed('reset');
+    $('#typed5').hide();
+})
+//
 $('tr#p6').mouseenter(function() {
     var typed5 = new Typed('#typed6', {
         strings: ["A Gen-Z 'AI' Chatbot friend."],
